@@ -11,8 +11,8 @@ export default defineConfig({
     host: '0.0.0.0',
     allowedHosts: 'all',
     proxy: {
-      '/api': 'http://localhost:5000',
-      '/uploads': 'http://localhost:5000',
+      '/api': 'https://mealmeat.onrender.com',
+'/uploads': 'https://mealmeat.onrender.com',
     }
   }
 })
